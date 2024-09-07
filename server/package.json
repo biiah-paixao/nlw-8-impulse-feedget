@@ -8,6 +8,7 @@
     "build": "tsc",
     "start": "node dist/server.js",
     "dev": "ts-node-dev src/server.ts",
+    "postinstall": "prisma generate",
     "vercel-build": "npx prisma migrate deploy"
   },
   "keywords": [],
