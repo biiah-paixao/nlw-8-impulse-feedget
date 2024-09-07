@@ -30,3 +30,16 @@ routes.post("/feedbacks", async (req, res) => {
         return res.status(500).send();
     }
 })
+
+routes.get("/", async (req, res) => {
+    try {
+        const prismaFeedbacksRepository = new PrismaFeedbacksRepository();
+        const feedbacks = await prismaFeedbacksRepository.findAll(); // Busca todos os feedbacks
+
+        return res.status(200).json(feedbacks); // Retorna a lista de feedbacks
+    } catch (err) {
+        console.error(err);
+
+        return res.status(500).send({ error: "Erro ao buscar feedbacks" });
+    }
+});
