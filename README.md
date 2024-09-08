@@ -24,7 +24,7 @@ A aplicação consiste num widget que possibilita o envio de feedbacks além de 
 
 **1.** Clone este repositório com o seguinte comando:
 
-`git clone git@github.com:biiah-paixao/feedback-widget.git`
+`git clone git@github.com:biiah-paixao/nlw-8-impulse-feedget.git`
 
 **2.** Você vai precisar ter o **Node.js** instalado na sua máquina.
 
@@ -42,12 +42,8 @@ A aplicação consiste num widget que possibilita o envio de feedbacks além de 
 
 `npm run dev`
 
-**6.** Finalmente, para visualizar a aplicação mobile, entre na pasta mobile e rode o seguinte comando:
-
-`npm start`
-
 **Isto é tudo! :heart:<br />
-Se você tiver dúvidas sobre o Feedget, você pode perguntar no [GitHub Issues](https://github.com/biiah-paixao/feedback-widget/issues).**
+Se você tiver dúvidas sobre o Feedget, você pode perguntar no [GitHub Issues](https://github.com/biiah-paixao/nlw-8-impulse-feedget/issues).**
 
 
 ## Atualização V2 (em breve):
